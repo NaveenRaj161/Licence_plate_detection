@@ -137,7 +137,7 @@ def cleanAndRead(img,contours):
 
 if __name__ == '__main__':
 	print "DETECTING PLATE . . ."
-	img = cv2.imread("testData/test.jpeg")
+	img = cv2.imread("IMAGE PATH HERE")
 	threshold_img = preprocess(img)
 	contours= extract_contours(threshold_img)
 	cleanAndRead(img,contours)
